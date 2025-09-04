@@ -1,4 +1,4 @@
-# Inventory & Warranty Analytics Streamlit App
+# Risk Optimization Console
 
 This Streamlit application provides a comprehensive suite of analytics for inventory and warranty data, including:
 
