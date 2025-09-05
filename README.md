@@ -1,25 +1,46 @@
 # Risk Optimization Console
 
-This Streamlit application provides a comprehensive suite of analytics for inventory and warranty data, including:
+Operations research platform for supply chain optimization using advanced statistical modeling.
 
-* **Data Cleaning & Processing:** Handles raw transaction data.
-* **KPI Generation:** Calculates key performance indicators across various dimensions (SKU, Customer, Location, State, Monthly, Item Class, Item Type, Service Center).
-* **Safety Stock & Reorder Point Calculation:** Recommends optimal safety stock levels and reorder points based on historical failures and risk factors.
-* **Interactive Dashboards:** Visualizes KPIs through tables, charts, heatmaps, and Sankey diagrams for insightful analysis.
+## Mathematical Optimization
+- Safety stock calculation with statistical risk modeling across 1,400+ SKU combinations
+- Cost variance analysis with robust forecasting methods
+- Multi-location inventory optimization with uncertainty modeling
 
-## How to Use
+## Analytics Platform
+- Executive dashboards with multi-timeframe performance tracking
+- Cost flow visualization through Sankey diagrams
+- Geographic performance analysis across fulfillment networks
+- Automated KPI generation across multiple business dimensions
 
-1.  **Upload Data:** Upload your `warranty_raw.csv` file in the "App Setup & Data Processing" section.
-2.  **Run Analysis:** Click "Run All Analysis & Generate Reports" after setting your desired "As Of" date.
-3.  **Explore Tabs:** Navigate through the different tabs to view Executive Summaries, detailed KPI reports, and advanced visualizations.
+## Data Processing
+- Transaction data normalization and statistical analysis
+- Outlier detection with 99th percentile capping
+- Performance ranking and variance identification systems
 
-## Requirements
+## Visual Intelligence
 
-This application requires the following Python libraries:
-* `streamlit`
-* `pandas`
-* `numpy`
-* `plotly`
-* `scikit-learn`
+**Cost Flow Analysis** - Sankey visualization showing operational cost distribution across locations, products, and regions
 
-(See `requirements.txt` for exact versions)
+**Executive Dashboard** - Multi-timeframe performance monitoring with trend analysis and key metrics
+
+**Geographic Analysis** - Cost distribution mapping across US states and Canadian provinces
+
+## Technical Implementation
+
+**Statistical Methods** - Demand forecasting with uncertainty modeling, risk scoring using normalized distribution analysis, lead time optimization with coefficient of variation methods
+
+**Platform** - Python/Pandas for data processing and statistical computation, Streamlit deployment with real-time analytics, Plotly visualization for executive reporting
+
+**Integration** - ERP automation with JavaScript workflow tools, multi-system data connectivity and processing, automated report generation and KPI tracking
+
+## Deployment
+
+```bash
+pip install streamlit pandas numpy plotly scikit-learn
+streamlit run streamlit_app.py
+```
+
+Upload data → Run analysis → Navigate executive reporting interface
+
+Statistical variance analysis for cost optimization identification. Automated processing pipeline with error detection and prevention. Multi-timeframe operational analysis with performance monitoring across enterprise supply chain networks.
