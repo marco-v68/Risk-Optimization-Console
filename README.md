@@ -23,17 +23,17 @@ Operations research platform for supply chain optimization using advanced statis
 ### Executive Dashboard
 Multi-timeframe performance monitoring with trend analysis and key metrics
 
-![Executive Dashboard](./screenshots/Executive_Summary.png)
+![Executive Dashboard](./_screenshots/Executive_Summary.png)
 
 ### Cost Flow Analysis
 Sankey visualization showing operational cost distribution across locations, products, and regions
 
-![Cost Flow Analysis](./screenshots/Sankey_Cost_Flow.png)
+![Cost Flow Analysis](./_screenshots/Sankey_Cost_Flow.png)
 
 ### Geographic Analysis
 Cost distribution mapping across US states and Canadian provinces
 
-![Geographic Analysis](./screenshots/us_heatmap.png)
+![Geographic Analysis](./_screenshots/us_heatmap.png)
 
 ## Technical Implementation
 
