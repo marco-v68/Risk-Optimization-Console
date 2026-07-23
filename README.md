@@ -2,54 +2,47 @@
 
 Analytics platform for warranty and service operations — safety-stock modeling, custom cost KPI engineering, and cost-flow analysis built from raw ERP transaction data.
 
-## Mathematical Optimization
-- Safety stock calculation with statistical risk modeling across 1,400+ SKU combinations
-- Cost variance analysis with robust forecasting methods
-- Multi-location inventory optimization with uncertainty modeling
+## Inventory Modeling
+- Safety stock and reorder points across 1,400+ SKU-location combinations
+- Demand and lead-time variance with service-level Z-score targets
+- Multi-location inventory optimization
+- Composite risk scoring with quartile-based service-level assignment
 
-## Analytics Platform
-- Executive dashboards with multi-timeframe performance tracking
-- Cost flow visualization through Sankey diagrams
-- Geographic performance analysis across fulfillment networks
-- Automated KPI generation across multiple business dimensions
+## Analytics
+- Executive dashboards across 30-day, 90-day, YTD, 2-year, and 3-year windows with period-over-period deltas
+- Cost-flow visualization via Sankey diagrams across four configurable dimension paths
+- Geographic cost distribution across US states and Canadian provinces
+- Automated KPI generation across eight dimensions: SKU, customer, location, state, month, customer category, item class, item type
 
 ## Data Processing
-- Transaction data normalization and statistical analysis
-- Outlier detection with 99th percentile capping
-- Performance ranking and variance identification systems
+- Transaction normalization and derived-metric engineering (margin bleed, cost velocity, failure-distribution entropy)
+- Outlier detection with 99th-percentile capping
+- Threshold-based risk flagging and leaderboard ranking
 
-## Visual Intelligence
-
-### Executive Dashboard
-Multi-timeframe performance monitoring with trend analysis and key metrics
-
-![Executive Dashboard](./_screenshots/Executive_Summary.png)
-
-### Cost Flow Analysis
-Sankey visualization showing operational cost distribution across locations, products, and regions
-
-![Cost Flow Analysis](./_screenshots/Sankey_Cost_Flow.png)
+## Screenshots
 
 ### Geographic Analysis
 Cost distribution mapping across US states and Canadian provinces
-
 ![Geographic Analysis](./_screenshots/us_heatmap.png)
 
+### Executive Dashboard
+Multi-timeframe performance monitoring with trend indicators
+![Executive Dashboard](./_screenshots/Executive_Summary.png)
+
+### Cost Flow Analysis
+Sankey visualization of cost distribution across locations, products, and regions
+![Cost Flow Analysis](./_screenshots/Sankey_Cost_Flow.png)
+
 ## Technical Implementation
+**Statistical methods** — demand forecasting, risk scoring via normalized distribution analysis, lead-time modeling with coefficient of variation
 
-**Statistical Methods** - Demand forecasting with uncertainty modeling, risk scoring using normalized distribution analysis, lead time optimization with coefficient of variation methods
+**Platform** — Python/pandas for processing and computation, Streamlit for the application layer, Plotly for visualization
 
-**Platform** - Python/Pandas for data processing and statistical computation, Streamlit deployment with real-time analytics, Plotly visualization for executive reporting
-
-**Integration** - ERP automation with JavaScript workflow tools, multi-system data connectivity and processing, automated report generation and KPI tracking
+**Integration** — ERP data pipeline with automated report and KPI generation
 
 ## Deployment
-
 ```bash
 pip install streamlit pandas numpy plotly scikit-learn
 streamlit run streamlit_app.py
 ```
-
-Upload data → Run analysis → Navigate executive reporting interface
-
-Statistical variance analysis for cost optimization identification. Automated processing pipeline with error detection and prevention. Multi-timeframe operational analysis with performance monitoring across enterprise supply chain networks.
+Upload data → run analysis → navigate reporting interface
