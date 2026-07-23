@@ -1,6 +1,6 @@
 # Risk Optimization Console
 
-Operations research platform for supply chain optimization using advanced statistical modeling.
+Analytics platform for warranty and service operations — safety-stock modeling, custom cost KPI engineering, and cost-flow analysis built from raw ERP transaction data.
 
 ## Mathematical Optimization
 - Safety stock calculation with statistical risk modeling across 1,400+ SKU combinations
